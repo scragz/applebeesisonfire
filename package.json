@@ -1,0 +1,19 @@
+{
+  "name": "applebees-is-on-fire",
+  "version": "1.0.0",
+  "description": "A web app game where you chat with a 911 dispatcher as an Applebees employee during a fire",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel start"
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
